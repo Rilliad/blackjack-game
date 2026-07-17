@@ -117,17 +117,3 @@ function addCardImg(card) {
 function softAce(currentCard) {
     return (currentCard.name === "Ace" && currentCard.value === 11)
 }
-
-// isAlive = true 
-// hasBlackJack = false
-
-// let card = {
-//     name: "Ace",
-//     value: 11,
-// }
-
-// cards.push(card)
-
-function softAce(currentCard) {
-    return (currentCard.name === "Ace" && currentCard.value === 11)
-}
