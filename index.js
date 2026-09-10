@@ -74,7 +74,7 @@ function renderGame() {
     if (sum <= 20) {
         message = "Do you want to draw a new card?"
     } else if (sum === 21) {
-        message = "You've got Blackjack! Do you want to go again?"
+        message = "You've got Blackjack! Go again?"
         hasBlackJack = true
         player.chips += 250
     } else {
